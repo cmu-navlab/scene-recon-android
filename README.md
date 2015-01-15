@@ -9,4 +9,4 @@ Supports Android 4.0+
 This project is built using Android Studio.
 
 The original author ([Andrew Orobator](https://github.com/AOrobator)) has
-logged his findings [here](research_log.md).
+logged his findings [here](RESEARCH_LOG.md).

@@ -1,5 +1,5 @@
+.idea
+build
+local.properties
+.gradle
 *.iml
-openCVLibrary249/build
-openCVLibrary249/*.iml
-app/build
-app/*.iml

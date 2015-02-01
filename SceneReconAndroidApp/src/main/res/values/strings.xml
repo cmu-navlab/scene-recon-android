@@ -12,5 +12,6 @@
     <string name="title_activity_setup">SetupActivity</string>
     <string name="title_activity_hello_open_cv">HelloOpenCvActivity</string>
     <string name="capture_scene">Capture Scene</string>
+    <string name="no_init">Not initialized</string>
 
 </resources>

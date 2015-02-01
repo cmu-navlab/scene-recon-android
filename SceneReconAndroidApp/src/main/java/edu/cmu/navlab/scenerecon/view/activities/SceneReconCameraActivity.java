@@ -13,7 +13,7 @@ import edu.cmu.navlab.scenerecon.view.fragments.SceneReconCameraFragment;
 public class SceneReconCameraActivity extends SingleFragmentActivity {
 
     @Override
-    Fragment createFragment() {
+    protected Fragment createFragment() {
         return new SceneReconCameraFragment();
     }
 

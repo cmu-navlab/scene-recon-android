@@ -3,15 +3,16 @@ package edu.cmu.navlab.scenerecon.view.activities;
 import android.app.Fragment;
 
 import edu.cmu.navlab.scenerecon.R;
+import edu.cmu.navlab.scenerecon.view.fragments.CompassTestFragment;
 import edu.cmu.navlab.scenerecon.view.fragments.SensorTestFragment;
 
 /**
- * SensorTestActivity is the activity that hosts SensorTestFragment
+ * CompassTestActivity is the activity that hosts CompassTestFragment
  */
-public class SensorTestActivity extends SingleFragmentActivity {
+public class CompassTestActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return new SensorTestFragment();
+        return new CompassTestFragment();
     }
 }

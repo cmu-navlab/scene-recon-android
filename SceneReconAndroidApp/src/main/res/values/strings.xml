@@ -12,5 +12,28 @@
     <string name="title_activity_setup">SetupActivity</string>
     <string name="title_activity_hello_open_cv">HelloOpenCvActivity</string>
     <string name="capture_scene">Capture Scene</string>
+    <string name="welcome_user_message">Welcome! From five feet away from
+        the object, please click a picture!</string>
+    <string name="instruct_move_message">Great! Now take two steps along a
+        path around the object and click a picture. If you already reached
+        where you started, you are done!</string>
+    <string name="instruct_cover_circles_message">Excellent! From where you
+        are, please click a picture to cover the other %s circles</string>
+    <string name="blank_instruction">Space for instructions</string>
+    <string name="preferences_title">Preferences</string>
+    <string name="no_circles_title">Number of pictures from a single position</string>
+    <string name="no_circles_summary">Must be an odd integer that is a perfect square greater than 1</string>
+    <string name="no_circles_dialog_title">Number of pictures</string>
+    <string name="no_circles_default">25</string>
+    <string name="circles_dist_title">Distance (in degrees) between pictures</string>
+    <string name="circles_dist_summary">Must be a integer between (inclusive) 10 and 100</string>
+    <string name="circles_dist_default">20</string>
+    <string name="launch_preference">Preferences</string>
+    <string name="smooth_coeff_title">Smoothness coefficient</string>
+    <string name="smooth_coeff_summary">A decimal value greater than or equal to 0 but less than 1</string>
+    <string name="smooth_coeff_default">0.99</string>
+    <string name="canvas_width_degrees_title">Canvas width (in degrees)</string>
+    <string name="canvas_width_degrees_summary">A decimal value greater than 0 and less than 360</string>
+    <string name="canvas_width_degrees_default">67</string>
 
 </resources>

@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="edu.cmu.navlab.scenerecon.view.activities.SceneReconCameraActivity">
+      tools:context="edu.cmu.navlab.scenerecon.view.activities.ImageCaptureActivity">
 
     <item
             android:id="@+id/action_settings"

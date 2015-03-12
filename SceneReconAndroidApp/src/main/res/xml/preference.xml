@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preferences_title">
+
+        <EditTextPreference
+            android:key="no_circles"
+            android:title="@string/no_circles_title"
+            android:summary="@string/no_circles_summary"
+            android:dialogTitle="@string/no_circles_dialog_title"
+            android:inputType="number"
+            android:defaultValue="@string/no_circles_default" />
+
+        <EditTextPreference
+            android:key="circles_dist"
+            android:title="@string/circles_dist_title"
+            android:summary="@string/circles_dist_summary"
+            android:dialogTitle="@string/circles_dist_title"
+            android:inputType="number"
+            android:defaultValue="@string/circles_dist_default" />
+
+        <EditTextPreference
+            android:key="smooth_coeff"
+            android:title="@string/smooth_coeff_title"
+            android:summary="@string/smooth_coeff_summary"
+            android:dialogTitle="@string/smooth_coeff_title"
+            android:inputType="numberDecimal"
+            android:defaultValue="@string/smooth_coeff_default" />
+
+        <EditTextPreference
+            android:key="canvas_width_degrees"
+            android:title="@string/canvas_width_degrees_title"
+            android:summary="@string/canvas_width_degrees_summary"
+            android:dialogTitle="@string/canvas_width_degrees_title"
+            android:inputType="number"
+            android:defaultValue="@string/canvas_width_degrees_default" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
